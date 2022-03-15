@@ -14,8 +14,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://naihexi.github.io/Blog/
-root: /Blog
+url: https://naihexi.github.io/blog/
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -48,7 +48,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: false
@@ -99,11 +99,37 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+#theme: landscape
+theme: amazing
+
+#启动插件
+plugins:
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/NaiHeXi/Blog.git
+  repo: https://github.com/NaiHeXi/blog.git
   branch: pages
+
+jsonContent:
+  dateFormat: MM-DD
+  pages:
+    title: true
+    text: true
+    path: true
+    date: true
+    excerpt: true
+    preview: true
+  posts:
+    title: true
+    text: true
+    path: true
+    date: true
+    excerpt: true
+    tags: [{
+      name: tag.name,
+      slug: tag.slug,
+      permalink: tag.permalink
+    }]
+    preview: true

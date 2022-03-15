@@ -3,17 +3,19 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/logo.png #/img/logo.svg
+#logo: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/logo.png #/img/logo.svg
+logo: /img/favicon.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/favicon.png #/img/favicon.svg
+    #favicon: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/favicon.png #/img/favicon.svg
+    favicon: /img/favicon.png
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 辣椒の酱
+        title: My Blog
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
@@ -22,13 +24,14 @@ head:
         url: https://removeif.github.io/
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png
+        #image: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png
+        image: /source/img/avatar.jpg
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 辣椒の酱
+        site_name: 夜色微凉
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: removeif
+        author: NaiHe
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
         description: 
@@ -144,16 +147,17 @@ search:
 comment:
     type: gitalk
     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: removeif         # (required) GitHub user name
+    owner: NaiHeXi         # (required) GitHub user name
     repo: blog_comment          # (required) GitHub repository name
-    client_id: 46a9f3481b46ea0129d8     # (required) OAuth application client id
-    client_secret: 79c7c9cb847e141757d7864453bcbf89f0655b24 # (required) OAuth application client secret
-    admin: ['removeif']
+    client_id: 35bd1c6b592b23f161ff     # (required) OAuth application client id
+    client_secret: 8de8e852d7492d457edcc087176bb5aff9223b27 # (required) OAuth application client secret
+    admin: ['NaiHeXi']
     create_issue_manually: true
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
     has_latest_comment: true #是否有最新评论
-    proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token #解决登录后403问题
+    #proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token #解决登录后403问题
+    proxy: https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token #解决登录后403问题
 # comment:
 #     type: valine
 #     app_id: rOtVIhvG3kd7QkMKe3naSU9R-gzGzoHsz
@@ -246,13 +250,14 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: 辣椒の酱
+        author: NaiHeXi
         # Author title
         author_title: 尚未执佩剑，转眼即江湖
         # Author's current location
-        location: 阿尔及利亚
+        location: China
         # URL or path to the avatar image
-        avatar: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png
+        #avatar: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png
+        avatar: /img/avatar.jpg
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
@@ -263,13 +268,15 @@ widgets:
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/removeif'
+                #url: 'https://github.com/removeif'
+                url: 'https://github.com/NaiHeXi/blog.git'
             Weibo:
                 icon: fab fa-weibo
                 url: 'https://weibo.com/removeif'
             Email:
                 icon: fa fa-envelope
-                url: 'mailto:removeif@163.com'
+                #url: 'mailto:removeif@163.com'
+                url: '862210614@qq.com'
             Next:
                 icon: fab fa-dribbble
                 url: 'https://removeif.github.io/remove.io'
