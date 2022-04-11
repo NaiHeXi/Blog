@@ -109,7 +109,8 @@ plugins:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/NaiHeXi/blog.git
+  # repo: https://github.com/NaiHeXi/blog.git
+  repo: git@github.com:NaiHeXi/blog.git
   branch: pages
 
 jsonContent:
