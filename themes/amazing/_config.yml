@@ -4,7 +4,7 @@ version: 4.0.0
 variant: default
 # Path or URL to the website's logo
 #logo: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/logo.png #/img/logo.svg
-logo: /img/favicon.png
+logo: /img/logo.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -29,7 +29,7 @@ head:
         image: /source/img/avatar.jpg
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 夜色微凉
+        site_name: 奈何
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
         author: NaiHe
@@ -158,7 +158,8 @@ comment:
     has_hot_recommend: true # 是否有热门推荐
     has_latest_comment: true #是否有最新评论
     #proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token #解决登录后403问题
-    proxy: https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token #解决登录后403问题
+    #proxy: https://cors-anywhere.herokuapp.com//https://github.com/login/oauth/access_token #解决登录后403问题
+    proxy: https://naihe.862210614.workers.dev/?https://github.com/login/oauth/access_token #解决登录后403问题
 # comment:
 #     type: valine
 #     app_id: rOtVIhvG3kd7QkMKe3naSU9R-gzGzoHsz
@@ -190,12 +191,14 @@ donates:
         # Donation entry name
         type: alipay
         # Qrcode image URL
-        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135456.png'
+        # qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135456.png'
+        qrcode: /img/Alipay.jpg
     -
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135550.png'
+        # qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135550.png'
+        qrcode: /img/WeChatPay.jpg
     # "Buy me a coffee" donate button configurations
 #    -
 #        type: buymeacoffee
