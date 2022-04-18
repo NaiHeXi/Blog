@@ -148,11 +148,11 @@ search:
 comment:
     type: gitalk
     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: NaiHeXi         # (required) GitHub user name
+    owner: naihexi         # (required) GitHub user name
     repo: blog_comment          # (required) GitHub repository name
     client_id: 35bd1c6b592b23f161ff     # (required) OAuth application client id
     client_secret: 8de8e852d7492d457edcc087176bb5aff9223b27 # (required) OAuth application client secret
-    admin: ['NaiHeXi']
+    admin: ['naihexi']
     create_issue_manually: true
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
@@ -267,13 +267,14 @@ widgets:
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        # follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/naihexi'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
                 #url: 'https://github.com/removeif'
-                url: 'https://github.com/NaiHeXi/blog.git'
+                url: 'https://github.com/naihexi/blog.git'
             Weibo:
                 icon: fab fa-weibo
                 url: 'https://weibo.com/removeif'

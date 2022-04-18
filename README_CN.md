@@ -12,10 +12,10 @@
 
 | Version | Author  | Date       | Description              |
 | ------- | ------- | ---------- | ------------------------ |
-| V1.0.0  | NaiHeXi |            |                          |
-| V1.0.0  | NaiHeXi | 2022/03/15 | 添加 Amazing 主题文件夹  |
-| V1.0.0  | NaiHeXi | 2021/12/17 | 添加GitHub仓库和网页地址 |
-| V1.0.0  | NaiHeXi | 2021/12/16 | Hexo初始化               |
+| V1.0.0  | naihexi |            |                          |
+| V1.0.0  | naihexi | 2022/03/15 | 添加 Amazing 主题文件夹  |
+| V1.0.0  | naihexi | 2021/12/17 | 添加GitHub仓库和网页地址 |
+| V1.0.0  | naihexi | 2021/12/16 | Hexo初始化               |
 
 
 
