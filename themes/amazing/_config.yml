@@ -26,7 +26,7 @@ head:
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
         #image: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png
-        image: /source/img/avatar.jpg
+        image: /img/avatar.jpg
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
         site_name: 奈何
@@ -159,7 +159,7 @@ comment:
     has_latest_comment: true #是否有最新评论
     #proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token #解决登录后403问题
     #proxy: https://cors-anywhere.herokuapp.com//https://github.com/login/oauth/access_token #解决登录后403问题
-    proxy: https://naihe.862210614.workers.dev/?https://github.com/login/oauth/access_token #解决登录后403问题
+    proxy: https://naihe.weiyu.workers.dev/?https://github.com/login/oauth/access_token #解决登录后403问题
 # comment:
 #     type: valine
 #     app_id: rOtVIhvG3kd7QkMKe3naSU9R-gzGzoHsz
@@ -254,7 +254,7 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: NaiHeXi
+        author: NaiHe
         # Author title
         author_title: 尚未执佩剑，转眼即江湖
         # Author's current location
